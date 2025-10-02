@@ -29,7 +29,6 @@ MONGODB-DATA-LAYER/
 │ ├── collection_image.png
 │ ├── sample_data.png
 │
-│── .env # Environment variables (if needed)
 │── insert_books.js # Node.js script to insert sample data
 │── queries.js # MongoDB queries written in mongosh
 │── package.json # Node.js project config
@@ -85,11 +84,11 @@ copy and paste the queries in mongoshh
 ```
 ### Features Implemented
 
-Database Setup
+-Database Setup
 
-  Created plp_bookstore database
+  -Created plp_bookstore database
   
-  Added books collection
+  -Added books collection
 
 CRUD Operations
 
