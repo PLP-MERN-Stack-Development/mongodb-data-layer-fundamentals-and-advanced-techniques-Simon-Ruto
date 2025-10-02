@@ -52,29 +52,39 @@ MONGODB-DATA-LAYER/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Install Prerequisites
+### 1️⃣ Install Prerequisites 
+
 - Install **Node.js**: [Download here](https://nodejs.org/)
 - Install **MongoDB Community Server** and ensure it’s running locally
 - Install **MongoDB Compass** (for GUI management)
 
 ### 2️⃣ Initialize Node.js Project
 Inside your project folder:
+
 ```bash
+
 npm init -y
 
-###4️⃣ Run Scripts
+```
+
+###3️⃣ Install Required Packages
+```
+npm install mongodb
+```
+### 4️⃣ Run Scripts
 
 ###To insert data into the database:
 
+```
 node insert_books.js
-
+```
 To run saved queries in mongosh:
+```
+copy and paste the queries in mongoshh
+```
+### Features Implemented
 
-copy and paste them in mongoshh
-
-🚀 Features Implemented
-
-Database Setup
+####Database Setup
 
 Created plp_bookstore database
 
