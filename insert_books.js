@@ -131,6 +131,121 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
+  },
+
+
+    //11 More books added
+
+
+  {
+    title: 'Dirt Dealers',
+    author: 'A.W. Kaylen',
+    genre: 'Mystery Detective',
+    published_year: 2023,
+    price: 5.99,
+    in_stock: true,
+    pages: 155,
+    publisher: 'Hararid global resources'
+  },
+  {
+    title: 'Love for a Deaf Rebel',
+    author: 'Derrick King',
+    genre: 'Biography',
+    published_year: 2021,
+    price: 6.99,
+    in_stock: true,
+    pages: 196,
+    publisher: 'Provenance Press'
+  },
+  {
+    title: 'From Silicon Valley to Swaziland',
+    author: 'Rick & Wendy Walleigh',
+    genre: 'Biography',
+    published_year: 2015,
+    price: 9.50,
+    in_stock: false,
+    pages: 308,
+    publisher: 'Wheatmark'
+  },
+  {
+    title: 'Hidden City',
+    author: 'M.S. Lawson',
+    genre: 'Science Fiction',
+    published_year: 2025,
+    price: 9.99,
+    in_stock: true,
+    pages: 187,
+    publisher: 'M.S. Lawson'
+  },
+  {
+    title: 'Playing in The Rain',
+    author: 'Sanda J. Jackson',
+    genre: 'Science Fiction',
+    published_year: 2018,
+    price: 8.99,
+    in_stock: true,
+    pages: 455,
+    publisher: 'Next Chapter'
+  },
+  {
+    title: 'No Room For Regret',
+    author: 'Janeen Ann O Connell',
+    genre: 'Historical Fiction',
+    published_year: 2018,
+    price: 12.99,
+    in_stock: true,
+    pages: 289,
+    publisher: 'NextChapter'
+  },
+  {
+    title: 'The Legend Is Born',
+    author: 'Gerald Knight',
+    genre: 'Historical Fiction',
+    published_year: 2022,
+    price: 14.99,
+    in_stock: true,
+    pages: 130,
+    publisher: 'Iguana Books'
+  },
+  {
+    title: 'A Convenient Risk',
+    author: 'Sara R. Turnquist',
+    genre: 'Romance',
+    published_year: 2017,
+    price: 12.50,
+    in_stock: false,
+    pages: 257,
+    publisher:'Mountain Summit Press, LLC'
+  },
+  {
+    title: 'The Necklace - The Dusky Club, June 1962',
+    author: 'Linda S. Rice',
+    genre: 'Romance',
+    published_year: 2014,
+    price: 9.99,
+    in_stock: true,
+    pages: 293,
+    publisher: 'Linda S. Rice'
+  },
+  {
+    title: 'Exercise Is Murder',
+    author: 'Bruce Hammack',
+    genre: 'Action Adventure',
+    published_year: 2019,
+    price: 8.50,
+    in_stock: false,
+    pages: 119,
+    publisher: 'Jubilee Publishing'
+  },
+  {
+    title: 'The Killing Complex',
+    author: 'K.G. Leslie',
+    genre: 'Horror Thriller',
+    published_year: 2023,
+    price: 10.99,
+    in_stock: true,
+    pages: 288,
+    publisher: 'K.G. Leslie'
   }
 ];
 

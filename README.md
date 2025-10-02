@@ -1,59 +1,131 @@
-# MongoDB Fundamentals - Week 1
+# 📚 MongoDB Data Layer Assignment
 
-## Setup Instructions
+## 📌 Project Overview
+This assignment demonstrates the use of **MongoDB** through:
+1. **mongosh** commands (saved in `queries.js`).
+2. **MongoDB Compass** for local database management.
+3. **Node.js scripts** (e.g., `insert_books.js`) for connecting and inserting data programmatically.
 
-Before you begin this assignment, please make sure you have the following installed:
+The project explores:
+- Creating a `plp_bookstore` database
+- Managing book collections
+- Performing CRUD operations
+- Running aggregation pipelines
+- Documenting queries in JavaScript files
+- Visualizing the database and data using screenshots
 
-1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
-2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
-3. **Node.js** - [Download here](https://nodejs.org/)
+---
 
-### Node.js Package Setup
+## 📂 Project Structure
+MONGODB-DATA-LAYER/
+│── examples/
+│ ├── mongodb_connection_example.js
+│ ├── mongodb_shell_example.js
+│
+│── node_modules/ # Installed Node.js dependencies
+│
+│── screenshots/ # Screenshots of database & sample data
+│ ├── collection_image.png
+│ ├── sample_data.png
+│
+│── .env # Environment variables (if needed)
+│── insert_books.js # Node.js script to insert sample data
+│── queries.js # MongoDB queries written in mongosh
+│── package.json # Node.js project config
+│── package-lock.json
+│── MongoDB_Assignment_Guide.md
+│── SETUP_INSTRUCTIONS.md
+│── Week1-Assignment.md
+│── README.md # Project documentation
 
-Once you have Node.js installed, run the following commands in your assignment directory:
 
+---
+
+## 🛠️ Tools & Technologies
+- **MongoDB Community Server**
+- **mongosh** (MongoDB Shell)
+- **MongoDB Compass** (GUI client)
+- **Node.js** (v18+ recommended)
+- **npm** (for managing packages)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Install Prerequisites
+- Install **Node.js**: [Download here](https://nodejs.org/)
+- Install **MongoDB Community Server** and ensure it’s running locally
+- Install **MongoDB Compass** (for GUI management)
+
+### 2️⃣ Initialize Node.js Project
+Inside your project folder:
 ```bash
-# Initialize a package.json file
 npm init -y
 
-# Install the MongoDB Node.js driver
+3️⃣ Install Required Packages
+
 npm install mongodb
-```
 
-## Assignment Overview
+4️⃣ Run Scripts
 
-This week focuses on MongoDB fundamentals including:
-- Creating and connecting to MongoDB databases
-- CRUD operations (Create, Read, Update, Delete)
-- MongoDB queries and filters
-- Aggregation pipelines
-- Indexing for performance
+To insert data into the database:
 
-## Submission
+node insert_books.js
 
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
+To run saved queries in mongosh:
 
-## Getting Started
+copy and paste them in mongoshh
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
+🚀 Features Implemented
 
-## Files Included
+Database Setup
 
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
+Created plp_bookstore database
 
-## Requirements
+Added books collection
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
+CRUD Operations
 
-## Resources
+Inserted book documents using Node.js (insert_books.js)
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+Queried, updated, and deleted books using mongosh (queries.js)
+
+Aggregation Pipelines
+
+Average book price by genre
+
+Author with the most books
+
+Group books by publication decade and count totals
+
+Screenshots
+
+collection_image.png → database collections
+
+sample_data.png → populated book documents
+
+▶️ How to Use
+
+Clone or download this repository.
+
+Install Node.js dependencies (npm install).
+
+Start MongoDB locally and ensure Compass is connected to mongodb://localhost:27017.
+
+Run insert_books.js to populate the database.
+
+Open queries.js in mongosh to run queries.
+
+Check results in Compass or via terminal.
+
+📖 Learning Outcomes
+
+Learned to integrate MongoDB with Node.js.
+
+Used mongosh for raw queries.
+
+Documented all queries in queries.js.
+
+Visualized collections using Compass.
+
+Gained experience with npm project setup.
