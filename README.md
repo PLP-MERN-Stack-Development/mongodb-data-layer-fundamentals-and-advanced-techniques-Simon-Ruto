@@ -92,46 +92,46 @@ copy and paste the queries in mongoshh
 
 -CRUD Operations
 
-  -Inserted book documents using Node.js (insert_books.js)
+  - Inserted book documents using Node.js (insert_books.js)
   
-  -Queried, updated, and deleted books using mongosh (queries.js)
+  - Queried, updated, and deleted books using mongosh (queries.js)
 
--Aggregation Pipelines
+- Aggregation Pipelines
 
-    -Average book price by genre
-    
-    -Author with the most books
+  - Average book price by genre
   
-    -Group books by publication decade and count totals
+  - Author with the most books
 
--Screenshots
+  - Group books by publication decade and count totals
 
-  -collection_image.png → database collections
+- Screenshots
+
+  - collection_image.png → database collections
   
-  -sample_data.png → populated book documents
+  - sample_data.png → populated book documents
 
-▶️ How to Use
+### ▶️ How to Use
 
-1.Clone or download this repository.
+1. Clone or download this repository.
 
-2.Install Node.js dependencies (`npm install`).
+2. Install Node.js dependencies (`npm install`).
 
-3.Start MongoDB locally and ensure Compass is connected to `mongodb://localhost:27017`.
+3. Start MongoDB locally and ensure Compass is connected to `mongodb://localhost:27017`.
 
-4.Run `insert_books.js` to populate the database.
+4. Run `insert_books.js` to populate the database.
 
-5.Open `queries.js` in *mongosh* to run queries.
+5. Open `queries.js` in *mongosh* to run queries.
 
-6.Check results in *Compass* or via terminal.
+6. Check results in *Compass* or via terminal.
 
--📖 Learning Outcomes
+### - 📖 Learning Outcomes
 
-  -Learned to integrate MongoDB with Node.js.
+  - Learned to integrate MongoDB with Node.js.
   
-  -Used mongosh for raw queries.
+  - Used mongosh for raw queries.
   
-  -Documented all queries in queries.js.
+  - Documented all queries in queries.js.
   
-  -Visualized collections using Compass.
+  - Visualized collections using Compass.
   
-  -Gained experience with npm project setup.
+  - Gained experience with npm project setup.
