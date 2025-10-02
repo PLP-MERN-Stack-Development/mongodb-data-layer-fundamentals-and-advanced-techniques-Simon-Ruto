@@ -84,11 +84,11 @@ copy and paste the queries in mongoshh
 ```
 ### Features Implemented
 
--Database Setup
+- Database Setup
 
-  -Created plp_bookstore database
+  - Created plp_bookstore database
   
-  -Added books collection
+  - Added books collection
 
 CRUD Operations
 
