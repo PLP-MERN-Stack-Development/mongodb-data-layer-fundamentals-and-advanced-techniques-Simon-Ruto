@@ -67,7 +67,7 @@ npm init -y
 
 ```
 
-###3️⃣ Install Required Packages
+### 3️⃣ Install Required Packages
 ```
 npm install mongodb
 ```
@@ -90,7 +90,7 @@ copy and paste the queries in mongoshh
   
   - Added books collection
 
--CRUD Operations
+- CRUD Operations
 
   - Inserted book documents using Node.js (insert_books.js)
   
@@ -130,7 +130,7 @@ copy and paste the queries in mongoshh
   
   - Used mongosh for raw queries.
   
-  - Documented all queries in queries.js.
+  - Documented all queries in `queries.js`.
   
   - Visualized collections using Compass.
   
