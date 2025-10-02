@@ -62,13 +62,9 @@ Inside your project folder:
 ```bash
 npm init -y
 
-3️⃣ Install Required Packages
+###4️⃣ Run Scripts
 
-npm install mongodb
-
-4️⃣ Run Scripts
-
-To insert data into the database:
+###To insert data into the database:
 
 node insert_books.js
 
