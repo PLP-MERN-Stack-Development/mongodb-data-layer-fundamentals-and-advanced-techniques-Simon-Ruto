@@ -17,6 +17,7 @@ The project explores:
 ---
 
 ## 📂 Project Structure
+```
 MONGODB-DATA-LAYER/
 │── examples/
 │ ├── mongodb_connection_example.js
@@ -38,7 +39,7 @@ MONGODB-DATA-LAYER/
 │── Week1-Assignment.md
 │── README.md # Project documentation
 
-
+```
 ---
 
 ## 🛠️ Tools & Technologies
@@ -84,11 +85,11 @@ copy and paste the queries in mongoshh
 ```
 ### Features Implemented
 
-####Database Setup
+Database Setup
 
-Created plp_bookstore database
-
-Added books collection
+  Created plp_bookstore database
+  
+  Added books collection
 
 CRUD Operations
 
