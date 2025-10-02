@@ -92,9 +92,9 @@ copy and paste the queries in mongoshh
 
 - CRUD Operations
 
-  - Inserted book documents using Node.js (insert_books.js)
+  - Inserted book documents using Node.js (`insert_books.js`)
   
-  - Queried, updated, and deleted books using mongosh (queries.js)
+  - Queried, updated, and deleted books using mongosh (`queries.js`)
 
 - Aggregation Pipelines
 
