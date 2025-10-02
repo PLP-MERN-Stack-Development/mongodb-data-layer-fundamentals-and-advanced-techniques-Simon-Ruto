@@ -98,11 +98,11 @@ copy and paste the queries in mongoshh
 
 -Aggregation Pipelines
 
-  -Average book price by genre
+    -Average book price by genre
+    
+    -Author with the most books
   
-  -Author with the most books
-
-  -Group books by publication decade and count totals
+    -Group books by publication decade and count totals
 
 -Screenshots
 
@@ -124,7 +124,7 @@ copy and paste the queries in mongoshh
 
 6.Check results in *Compass* or via terminal.
 
-📖 Learning Outcomes
+-📖 Learning Outcomes
 
   -Learned to integrate MongoDB with Node.js.
   
