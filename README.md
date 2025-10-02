@@ -90,48 +90,48 @@ copy and paste the queries in mongoshh
   
   - Added books collection
 
-CRUD Operations
+-CRUD Operations
 
-Inserted book documents using Node.js (insert_books.js)
+  -Inserted book documents using Node.js (insert_books.js)
+  
+  -Queried, updated, and deleted books using mongosh (queries.js)
 
-Queried, updated, and deleted books using mongosh (queries.js)
+-Aggregation Pipelines
 
-Aggregation Pipelines
+  -Average book price by genre
+  
+  -Author with the most books
 
-Average book price by genre
+  -Group books by publication decade and count totals
 
-Author with the most books
+-Screenshots
 
-Group books by publication decade and count totals
-
-Screenshots
-
-collection_image.png → database collections
-
-sample_data.png → populated book documents
+  -collection_image.png → database collections
+  
+  -sample_data.png → populated book documents
 
 ▶️ How to Use
 
-Clone or download this repository.
+1.Clone or download this repository.
 
-Install Node.js dependencies (npm install).
+2.Install Node.js dependencies (`npm install`).
 
-Start MongoDB locally and ensure Compass is connected to mongodb://localhost:27017.
+3.Start MongoDB locally and ensure Compass is connected to `mongodb://localhost:27017`.
 
-Run insert_books.js to populate the database.
+4.Run `insert_books.js` to populate the database.
 
-Open queries.js in mongosh to run queries.
+5.Open `queries.js` in *mongosh* to run queries.
 
-Check results in Compass or via terminal.
+6.Check results in *Compass* or via terminal.
 
 📖 Learning Outcomes
 
-Learned to integrate MongoDB with Node.js.
-
-Used mongosh for raw queries.
-
-Documented all queries in queries.js.
-
-Visualized collections using Compass.
-
-Gained experience with npm project setup.
+  -Learned to integrate MongoDB with Node.js.
+  
+  -Used mongosh for raw queries.
+  
+  -Documented all queries in queries.js.
+  
+  -Visualized collections using Compass.
+  
+  -Gained experience with npm project setup.
